@@ -34,8 +34,6 @@
 .logo {
     display: flex;
     align-items: center;
-    /* float: left; */
-    /* padding: 25px; */
 }
 
 .logo p {
@@ -57,5 +55,61 @@
 
 main {
     padding: 100px;
+    padding-bottom: 800px;
     color: red;
+}
+
+/* FOOTER MAIN */
+.footer-main {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  /* background-color: ghostwhite; */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  justify-content: center;
+}
+
+/* SOCIAL MAIN */
+.social-main {
+  border-style: solid;
+  padding: 20px;
+  margin: 0 300px 0 0;
+}
+
+.social-header {
+  padding: 0 10px 0 0;
+}
+
+.social-links a {
+  float: left;
+  padding: 5px 10px 0 0;
+  color: black;
+}
+
+/* CONTACT MAIN */
+.contact-main {
+  border-style: solid;
+  padding: 20px;
+  margin: 0 0 0 400px;
+}
+
+.contact-form p {
+  color: red;
+  padding-bottom: 10px;
+}
+
+.submit-button {
+  background-color: brown;
+  /* border: none; */
+  border-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.reset-button {
+  /* background-color:; */
+  /* border: none; */
+  border-color: black;
+  color: black;
+  padding: 10px;
 }

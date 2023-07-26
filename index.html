@@ -19,7 +19,7 @@
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#footer-main">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -47,31 +47,45 @@
         </div>
     </main>
 
-    <footer>
-        <h3>Socials</h3>
-        <ul>
-            <a href="https://www.facebook.com/ArKNT7/" target="_blank">
-                <li>Facebook</li>
-            </a>
-            <a href="https://twitter.com/" target="_blank">
-                <li>Twitter</li>
-            </a>
-            <a href="https://web.telegram.org/" target="_blank">
-                <li>Telegram</li>
-            </a>
-        </ul>
-
-        <h3>Contact Me</h3>
-        <form action="/" method="POST" autocomplete="on">
-            <p>
-                <label for="">Enter your email</label>
-                <input type="email" name="email">
-            </p>
-            <p>
-                <button>Submit</button>
-                <button type="reset">Reset form</button>
-            </p>
-        </form>
+    <footer class="footer-main" id="footer-main">
+        <div class="social-main">
+            <div class="social-header">
+                <h3>Socials</h3>
+            </div>
+            <div class="social-links">
+                <ul>
+                    <a href="https://www.facebook.com/ArKNT7/" target="_blank">
+                        <li>Facebook</li>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <li>Twitter</li>
+                    </a>
+                    <a href="https://web.telegram.org/" target="_blank">
+                        <li>Telegram</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="contact-main">
+            <div class="contact-header">
+                <h3>Contact Me</h3>
+            </div>
+            <div class="contact-form">
+                <form action="/" method="POST" autocomplete="on">
+                    <p>
+                        <label for="">Enter your email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <button class="submit-button">Submit</button>
+                        <button class="reset-button" type="reset">Reset form</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+        
+        
     </footer>
     
 </body>
