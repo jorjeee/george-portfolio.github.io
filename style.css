@@ -113,3 +113,12 @@ main {
   color: black;
   padding: 10px;
 }
+
+/* ABOUT MAIN */
+.about-main a {
+  color: black;
+}
+
+.about-main li {
+  color: black;
+}
