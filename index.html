@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Source+Sans+3&display=swap" rel="stylesheet">
     <title>Jorjeee</title>
 </head>
 <body>
@@ -26,23 +32,49 @@
         </div>
     </nav>
     
+    <div class="main-image">
+        <img class="gym-rat" src="img/gym-rat-photo-no-bg-blobs.png" alt="gym-rat-photo-no-bg-blobs.png">
+    </div>
+
     <main>
-        <div>
-            <h1>
-                Hi, George here!
-            </h1>
+        <div class="headline-opener">
+            <p>
+                Hi, George Here!
+            </p>
         </div>
     
-        <div>
-            <ul>
+        <div class="headline-list">
+            <p>
+                I'm a Full-Stack Web Developer
+            </p>
+            <!-- <ul>
                 <li>UI/UX Enthusiast</li>
                 <li>Full-Stack Web Developer</li>
                 <li>Software Engineer</li>
                 <li>Entreprenuer</li>
                 <li>Gym Rat</li>
-            </ul>
+            </ul> -->
         </div>
 
+        <div class="contact-form">
+            <div class="email-caption">
+                <p>
+                    Need some help on your project?
+                </p>
+            </div>
+
+            <form action="/" method="POST" autocomplete="on">
+                <p>
+                    <label for="email"></label>
+                    <input type="email" name="email" placeholder="Enter your email">
+                </p>
+                <p>
+                    <button class="submit-button">Continue</button>
+                </p>
+            </form>
+        </div>
+    </main>
+<!--         
         <br><hr>
         <div class="about-main" id="about-section">
             <h1>About Me</h1>
@@ -114,7 +146,7 @@
         </div>
         
         
-    </footer>
+    </footer> -->
     
 </body>
 </html>
