@@ -116,7 +116,6 @@ input[type=email] {
   border: none;
   border-radius: 8px;
   color: white;
-  /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); */
   box-shadow: 2px 2px 2px 0 rgba(50, 50, 71, 0.06), 2px 2px 4px 0 rgba(50, 50, 71, 0.06);
   padding: 16px 200px;
 }
@@ -124,75 +123,10 @@ input[type=email] {
 .contact-form {
   margin: 50px 0 0 0;
   padding: 0 0 0 190px;
-  /* border-style: solid; */
-  /* float: left; */
 }
 
 /* MAIN IMAGE DESIGN */
 .gym-rat {
   float: right; 
   margin: 180px 250px 0 0;
-}
-
-/* FOOTER MAIN */
-.footer-main {
-  display: flex;
-  align-items: center;
-  padding: 30px;
-  /* background-color: ghostwhite; */
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-  justify-content: center;
-}
-
-/* SOCIAL MAIN */
-.social-main {
-  display: flex;
-  align-items: center;
-  border-style: solid;
-  padding: 20px;
-  /* margin: 0 300px 0 0; */
-}
-
-.social-header {
-  padding: 0 10px 0 0;
-}
-
-.social-links a {
-  align-items: center;
-  float: left;
-  padding: 5px 10px 0 0;
-  color: black;
-}
-
-/* CONTACT MAIN */
-/* .contact-main {
-  border-style: solid;
-  padding: 20px;
-  margin: 0 0 0 400px;
-} */
-
-/* .contact-form p {
-  padding-bottom: 10px;
-} */
-
-/* .submit-button {
-  background-color: brown;
-  border-color: black;
-  color: white;
-  padding: 10px;
-} */
-
-/* .reset-button {
-  border-color: black;
-  color: black;
-  padding: 10px;
-} */
-
-/* ABOUT MAIN */
-.about-main a {
-  color: black;
-}
-
-.about-main li {
-  color: black;
 }
