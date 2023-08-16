@@ -52,6 +52,17 @@ div.menu {
   justify-content: flex-end;
 }
 
+/* MAIN DESIGN */
+@font-face {
+  font-family: Koulen-Regular;
+  src: url(fonts/Koulen-Regular.ttf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Regular;
+  src: url(fonts/SourceSansPro-Regular.ttf);
+}
+
 main {
   padding: 180px 100px 100px 100px;
   /* padding-bottom: 800px; */
@@ -59,7 +70,7 @@ main {
 }
 
 .headline-opener {
-  font-family: 'Koulen', cursive;
+  font-family: 'Koulen-Regular';
   font-size: 64px;
   letter-spacing: 2.5px;
   color: black;
@@ -67,7 +78,7 @@ main {
 }
 
 .headline-list {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'SourceSansPro-Regular';
   font-size: 34px;
   color: black;
   margin-top: -20px;
@@ -75,14 +86,15 @@ main {
 }
 
 .email-caption {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'SourceSansPro-Regular';
   font-size: 22px;
   color: black;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   color:    #767676;
-  font-size: 14px;
+  font-family: 'SourceSansPro-Regular';
+  font-size: 16px;
 }
 
 input[type=email] {
@@ -96,9 +108,10 @@ input[type=email] {
 }
 
 .submit-button {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: 'SourceSansPro-Regular';
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 600;
+  letter-spacing: .5px;
   background-color: #FFD600;
   border: none;
   border-radius: 8px;
