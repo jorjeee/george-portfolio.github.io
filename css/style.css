@@ -23,6 +23,7 @@
     align-items: center;
     padding: 20px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    
 }
 
 /* LOGO */
@@ -30,11 +31,7 @@
   display: flex;
   justify-content: flex-start;
   /* padding: 0 0 0 190px; */
-  border: 1px solid red;
-}
-
-.logo img {
-  padding: 0 0 0 190px;
+  /* border: 1px solid red; */
 }
 
 /* MAIN DESIGN */
@@ -49,32 +46,33 @@
   }
 
 main {
-    margin: 250px;
+  margin: 100px 0 0 0;
 }
 
 .construction-img {
     display: flex;
     justify-content: center;
-    border: 1px solid red;
+}
+
+.construction-img img {
+  width: 80px;
 }
 
 .headline-opener {
     display: flex;
     justify-content: center;
     font-family: 'Koulen-Regular';
-    font-size: 64px;
+    font-size: 34px;
     letter-spacing: 2.5px;
     color: black;
-    border: 1px solid red;
 }
  
 .subhead-opener {
     display: flex;
     justify-content: center;
     font-family: 'SourceSansPro-Regular';
-    font-size: 34px;
+    font-size: 18px;
     color: black;
-    /* margin-top: -20px; */
-    border: 1px solid red;
+    margin-top: -10px;
 }
   
