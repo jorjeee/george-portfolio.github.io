@@ -75,4 +75,25 @@ main {
     color: black;
     margin-top: -10px;
 }
-  
+
+.headline-footer {
+  margin: 20px 0 20px 0;
+}
+
+.headline-footer p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Kouelen-Regular';
+  font-size: 100%;
+}
+
+.headline-footer img {
+  margin: 10px 0 0 0;
+  width: 30px;
+}
+
+.main-image-social-1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 50px 0 50px;
+}
