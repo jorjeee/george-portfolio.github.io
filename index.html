@@ -17,27 +17,38 @@
 </head>
 <body>
     <nav class="navbar">
-        <!-- LOGO -->
-        <div class="logo">
-            <a href="index.html">
-                <img src="img/jorjeee-logo.svg" alt="logo.svg"> 
-            </a>
+        <div class="nav-icons">
+            <!-- LOGO -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/jorjeee-logo-symbol-mobile.svg" alt="logo.svg"> 
+                </a>
+            </div>
+            <!-- DARK MODE -->
+            <div class="dark-mode">
+                <a href="#">
+                    <img src="icons/dark-mode.svg" alt="dark-mode.svg">
+                </a>
+            </div>
+            <!-- HUMBERGER ICON -->
+            <div class="menu">
+                <a href="#">
+                    <img src="icons/humberger-icon.svg" alt="f-u-i-k-n-o-w.svg">
+                </a>
+            </div>
         </div>
         
         <!-- NAVIGATION MENU -->
-        <div class="menu">
+        <!-- <div class="menu">
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#project-section">Projects</a></li>
+                <li><a href="#techstack-section">Tech Stack</a></li>
                 <li><a href="#about-section">About</a></li>
                 <li><a href="#footer-section">Contact</a></li>
             </ul>
-        </div>
+        </div> -->
     </nav>
-    
-    <div class="main-image">
-        <img class="gym-rat" src="img/gym-rat-photo-no-bg-blobs.png" alt="gym-rat-photo-no-bg-blobs.png">
-    </div>
 
     <main>
         <div class="headline-opener">
@@ -48,8 +59,12 @@
     
         <div class="headline-list">
             <p>
-                I'm a Full-Stack Web Developer
+                I'm a Software Engineer
             </p>
+        </div>
+
+        <div class="main-image">
+            <img class="gym-rat" src="img/gym-rat-photo-no-bg-blobs.png" alt="gym-rat-photo-no-bg-blobs.png">
         </div>
 
         <div class="contact-form">
@@ -59,56 +74,42 @@
                 </p>
             </div>
 
-            <form action="/" method="POST" autocomplete="on">
-                <p>
-                    <label for="email"></label>
-                    <input type="email" name="email" placeholder="Enter your email">
-                </p>
-                <p>
-                    <button class="submit-button">Continue</button>
-                </p>
-            </form>
+            <div>
+                <form action="/" method="POST" autocomplete="on">
+                    <p>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="Enter your email">
+                    </p>
+                    <p>
+                        <button class="submit-button">Continue</button>
+                    </p>
+                </form>
+            </div>
         </div>
     </main>
     
-    <footer>
-        <div class="message-form">
-            <div class="email-caption">
-                <p>
-                    What is your project all about?
-                </p>
-            </div>
-
-            <form action="/" method="POST" autocomplete="on">
-                <p>
-                    <label for="email"></label>
-                    <input type="email" name="email" placeholder="Enter your email">
-                </p>
-                <p>
-                    <label for="message"></label>
-                    <textarea name="message" id="message" cols="0" rows="0" placeholder="Your message..."></textarea>
-                </p>
-                <p>
-                    <button class="submit-button">Send</button>
-                </p>
-            </form>
-        </div>
-        
-        <div class="headline-footer">
-            <p>
-                FOLLOW ON SOCIALS
-            </p>
-            <div class="main-image-socials">
-                <img class="facebook-icon" src="icons/facebook.svg" alt="facebook.svg">
-                <img class="youtube-icon" src="icons/youtube.svg" alt="youtube.svg">
-                <img class="twitter-icon" src="icons/twitter.svg" alt="twitter.svg">
-                <img class="telegram-icon" src="icons/telegram.svg" alt="telegram.svg">
-                <img class="tiktok-icon" src="icons/Tiktok.svg" alt="tiktok.svg">
-                <img class="instagram-icon" src="icons/instagram.svg" alt="instagram.svg">
-            </div>
-        </div>
-        
-    </footer>
+    <div class="bottom-navbar">
+        <!-- HOME -->
+        <a href="">
+            <img src="icons/home.svg" alt="home.svg">
+        </a>
+        <!-- ABOUT -->
+        <a href="">
+            <img src="icons/about.svg" alt="about.svg">
+        </a>
+        <!-- TECH STACK -->
+        <a href="">
+            <img src="icons/techstack.svg" alt="techstack.svg">
+        </a>
+        <!-- CONTACT -->
+        <a href="">
+            <img src="icons/contact.svg" alt="contact.svg">
+        </a>
+        <!-- PROJECTS -->
+        <a href="">
+            <img src="icons/projects.svg" alt="projects.svg">
+        </a>
+    </div>
 
 </body>
 </html>
