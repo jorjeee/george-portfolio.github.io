@@ -31,16 +31,18 @@ li {
 
 /* LOGO */
 .logo {
+  margin-right: 10px;
   margin-left: 50px;
 }
 
 /* DARK MODE ICON */
 .dark-mode {
-  margin-left: 220px;
+  margin-left: 200px;
 }
 
 /* HUMBERGER ICON */
 .menu {
+  margin-left: 20px;
   margin-right: 50px;
 }
 
@@ -95,14 +97,14 @@ main {
 }
 
 .email-caption {
-  margin-right: 30px;
+  margin-right: 60px;
   font-family: 'SourceSansPro-Regular';
   font-size: 12px;
   color: black;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-  color:    #767676;
+  color:    #666666;
   font-family: 'SourceSansPro-Regular';
   font-size: 12px;
 }
@@ -110,7 +112,7 @@ main {
 input[type=email] {
   width: 100%;
   padding: 8px 20px 8px 10px;
-  margin: 6px 0 8px 0;
+  margin: 6px 30px 8px 0;
   background-color: #EEEEEE;
   border: none;
   border-radius: 8px;
@@ -119,16 +121,34 @@ input[type=email] {
 
 .submit-button {
   width: 100%;
+  padding: 8px 20px 8px 10px;
   font-family: 'SourceSansPro-Regular';
   font-size: 17px;
-  font-weight: 600;
+  /* font-weight: 600; */
   letter-spacing: .5px;
   background-color: #FFD600;
   border: none;
   border-radius: 8px;
   color: white;
   box-shadow: 2px 2px 2px 0 rgba(50, 50, 71, 0.06), 2px 2px 4px 0 rgba(50, 50, 71, 0.06);
-  padding: 8px 20px 8px 10px;
+ 
+}
+
+/* SOCIAL MEDIA SECTION */
+.follow-on {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px 0 0 0;
+  font-family: 'SourceSansPro-Regular';
+  font-size: 17px;
+}
+
+.social-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 60px 0 60px;
 }
 
 /* MAIN IMAGE DESIGN */
@@ -149,10 +169,63 @@ input[type=email] {
   align-items: center;
   justify-content: space-around;
   padding: 10px;
+  background-color: white;
   box-shadow: 0 -2px 4px 0 rgba(0,0,0,.1);
 
   overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+/* ABOUT ME SECTION */
+.horizontal-break {
+  margin: 60px 0 60px 0;
+}
+hr {
+  width: 75%;
+  margin: auto;
+}
+.about-section .header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Koulen-Regular';
+  font-size: 34px;
+  letter-spacing: 2.5px;
+  margin: 0 110px 0 0;
+}
+
+.about-section .body { 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'SourceSansPro-Regular';
+  font-size: 13px;
+  color: black;
+}
+
+.tcc-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0 0 10px;
+}
+
+.about-section .tcc-img img {
+  box-sizing: border-box;
+  width: 168px;
+  height: 168px;
+}
+
+.tcc-img-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-section .tcc-img-caption {
+  font-family: 'SourceSansPro-Regular';
+  font-size: 11px;
+  color: #666666;
 }
