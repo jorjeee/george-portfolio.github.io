@@ -64,7 +64,7 @@ li {
 }
 
 main {
-  margin: 100px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 .headline-opener {
@@ -180,7 +180,7 @@ input[type=email] {
 
 /* ABOUT ME SECTION */
 .horizontal-break {
-  margin: 60px 0 60px 0;
+  margin: 60px 0 40px 0;
 }
 hr {
   width: 75%;
@@ -189,27 +189,34 @@ hr {
 .about-section .header{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0 0 0 55px;
   font-family: 'Koulen-Regular';
   font-size: 34px;
   letter-spacing: 2.5px;
-  margin: 0 110px 0 0;
+  /* margin: 0 110px 0 0; */
 }
 
 .about-section .body { 
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-around; */
+  margin: 0 0 0 55px;
   font-family: 'SourceSansPro-Regular';
   font-size: 13px;
   color: black;
+}
+
+.about-section .body a {
+  color: black;
+  font-weight: bold;
 }
 
 .tcc-img {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 20px 0 0 10px;
+  margin: 20px 0 0 0;
 }
 
 .about-section .tcc-img img {
@@ -228,5 +235,41 @@ hr {
   font-family: 'SourceSansPro-Regular';
   font-size: 11px;
   color: #666666;
-  margin: 0 0 100px 0;
+}
+
+.about-section .about-section-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'SourceSansPro-Regular';
+  font-size: 13px;
+  font-weight: bold;
+  margin: 30px 0 100px 0;
+}
+
+.about-section .about-section-more a {
+  text-decoration: underline;
+  color: black;
+}
+
+.project-section-1-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px 45px;
+}
+
+.project-section-2-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px 45px;
+}
+
+.project-caption {
+  box-sizing: border-box;
+  width: 70px;
+  font-family: 'SourceSansPro-Regular';
+  font-size: 11px;
+  color: #666666;
 }
