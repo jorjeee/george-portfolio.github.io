@@ -19,7 +19,7 @@ li {
 
 /* NAVBAR MAIN */
 .navbar {
-  padding: 10px 0 10px 0;
+  padding: 8px 0;
   align-items: center;
 }
 
@@ -72,8 +72,8 @@ main {
   align-items: center;
   justify-content: space-around;
   font-family: 'Koulen-Regular';
-  font-size: 34px;
-  letter-spacing: 2.5px;
+  font-size: 40px;
+  letter-spacing: 1.5px;
   color: black;
 }
 
@@ -97,6 +97,9 @@ main {
 }
 
 .email-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-right: 60px;
   font-family: 'SourceSansPro-Regular';
   font-size: 12px;
@@ -193,7 +196,7 @@ hr {
   margin: 0 0 0 55px;
   font-family: 'Koulen-Regular';
   font-size: 34px;
-  letter-spacing: 2.5px;
+  letter-spacing: 1.5px;
   /* margin: 0 110px 0 0; */
 }
 
