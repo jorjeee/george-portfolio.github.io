@@ -1,46 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Jorjeee</title>
 
     <!-- FAV ICONS -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
-    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
-    <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-</head>
-<body>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_package_v0.16/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_package_v0.16/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_package_v0.16/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon_package_v0.16/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <div class="nav-icons">
-                <!-- LOGO -->
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="img/jorjeee-logo-symbol-mobile.svg" alt="logo.svg"> 
-                    </a>
-                </div>
-                <!-- DARK MODE -->
-                <div class="dark-mode">
-                    <a href="#">
-                        <img src="icons/top-nav-bar/dark-mode.svg" alt="dark-mode.svg">
-                    </a>
-                </div>
-                <!-- HUMBERGER ICON -->
-                <div class="menu">
-                    <a href="#">
-                        <img src="icons/top-nav-bar/humberger-icon.svg" alt="f-u-i-k-n-o-w.svg">
-                    </a>
-                </div>
-            </div>
-            
-            <!-- NAVIGATION MENU -->
-            <!-- <div class="menu">
+      <nav class="navbar">
+        <div class="nav-icons">
+          <!-- LOGO -->
+          <div class="logo">
+            <a href="index.html">
+              <img src="img/jorjeee-logo-symbol-mobile.svg" alt="logo.svg" />
+            </a>
+          </div>
+          <!-- DARK MODE -->
+          <div class="dark-mode">
+            <a href="#">
+              <img src="icons/top-nav-bar/dark-mode.svg" alt="dark-mode.svg" />
+            </a>
+          </div>
+          <!-- HUMBERGER ICON -->
+          <div class="menu">
+            <a href="#">
+              <img
+                src="icons/top-nav-bar/humberger-icon.svg"
+                alt="f-u-i-k-n-o-w.svg"
+              />
+            </a>
+          </div>
+        </div>
+
+        <!-- NAVIGATION MENU -->
+        <!-- <div class="menu">
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#project-section">Projects</a></li>
@@ -49,143 +70,176 @@
                     <li><a href="#footer-section">Contact</a></li>
                 </ul>
             </div> -->
-        </nav>
+      </nav>
     </header>
 
     <main>
-        <div class="headline-opener">
-            <p>
-                Hi, George Here!
-            </p>
-        </div>
-    
-        <div class="headline-list">
-            <p>
-                I'm a Software Engineer
-            </p>
-        </div>
+      <div class="headline-opener">
+        <p>Hi, George Here!</p>
+      </div>
 
-        <div class="main-image">
-            <img class="gym-rat" src="img/gym-rat-photo-no-bg-blobs.png" alt="gym-rat-photo-no-bg-blobs.png">
-        </div>
+      <div class="headline-list">
+        <p>I'm a Software Engineer</p>
+      </div>
 
-        <div class="contact-form">
-            <div class="email-caption">
+      <div class="main-image">
+        <img
+          class="gym-rat"
+          src="img/gym-rat-photo-no-bg-blobs.png"
+          alt="gym-rat-photo-no-bg-blobs.png"
+        />
+      </div>
+
+      <div class="contact-form">
+        <div class="email-caption">
+          <p>Need some help on your project?</p>
+        </div>
+        <div class="submit-form">
+            <form action="/" method="POST" autocomplete="on">
                 <p>
-                    Need some help on your project?
+                  <label for="email"></label>
+                  <input type="email" name="email" placeholder="Enter your email" />
                 </p>
-            </div>
+                <p>
+                  <button class="submit-button">Continue</button>
+                </p>
+              </form>
+        </div>
+      </div>
 
-            <div>
-                <form action="/" method="POST" autocomplete="on">
-                    <p>
-                        <label for="email"></label>
-                        <input type="email" name="email" placeholder="Enter your email">
-                    </p>
-                    <p>
-                        <button class="submit-button">Continue</button>
-                    </p>
-                </form>
-            </div>
-        </div>
+      <div class="follow-on">
+        <p>Follow on</p>
+      </div>
 
-        <div class="follow-on">
-            <p>Follow on</p>
-        </div>
+      <div class="social-section">
+        <a href="https://web.facebook.com/ArKNT7" target="_blank">
+          <img src="icons/socials/facebook.svg" alt="facebook.svg" />
+        </a>
+        <a href="https://www.instagram.com/jorjeeeeeeeeeeeee/" target="_blank">
+          <img src="icons/socials/instagram.svg" alt="instagram.svg" />
+        </a>
+        <a
+          href="https://youtube.com/@georgecarlobaganao3520?si=6-ZSbs0iWVgbu0k4"
+          target="_blank"
+        >
+          <img src="icons/socials/youtube.svg" alt="youtube.svg" />
+        </a>
+        <a href="https://twitter.com/ar_qta" target="_blank">
+          <img src="icons/socials/twitter.svg" alt="twitter.svg" />
+        </a>
+        <a
+          href="https://www.tiktok.com/@arkabanot?_t=8f5sinrAi5y&_r=1"
+          target="_blank"
+        >
+          <img src="icons/socials/Tiktok.svg" alt="Tiktok.svg" />
+        </a>
+        <a href="https://desktop.telegram.org/" target="_blank">
+          <img src="icons/socials/telegram.svg" alt="telegram.svg" />
+        </a>
+      </div>
 
-        <div class="social-section">
-            <a href="https://web.facebook.com/ArKNT7" target="_blank">
-                <img src="icons/socials/facebook.svg" alt="facebook.svg">
-            </a>
-            <a href="https://www.instagram.com/jorjeeeeeeeeeeeee/" target="_blank">
-                <img src="icons/socials/instagram.svg" alt="instagram.svg">
-            </a>
-            <a href="https://youtube.com/@georgecarlobaganao3520?si=6-ZSbs0iWVgbu0k4" target="_blank">
-                <img src="icons/socials/youtube.svg" alt="youtube.svg">
-            </a>
-            <a href="https://twitter.com/ar_qta" target="_blank">
-                <img src="icons/socials/twitter.svg" alt="twitter.svg">
-            </a>
-            <a href="https://www.tiktok.com/@arkabanot?_t=8f5sinrAi5y&_r=1" target="_blank">
-                <img src="icons/socials/Tiktok.svg" alt="Tiktok.svg">
-            </a>
-            <a href="https://desktop.telegram.org/" target="_blank">
-                <img src="icons/socials/telegram.svg" alt="telegram.svg">
-            </a>
+      <div class="horizontal-break">
+        <hr />
+      </div>
+      <div class="about-section">
+        <p class="header">ABOUT ME</p>
+        <p class="body">
+          Senior
+          <a
+            href="https://web.facebook.com/profile.php?id=100068416278996"
+            target="_blank"
+            >@Tagoloan Community College</a
+          >
+          taking <br />
+          BS in Information Technology
+        </p>
+        <div class="tcc-img">
+          <img src="img/tcc-photo.jpg" alt="tcc-photo.jpg" />
         </div>
+        <p class="tcc-img-caption">
+          PHOTO from IT Days 2023: Champion <br />Programming Competition
+        </p>
+        <p class="about-section-more">
+          <a href="#">KNOW MORE ABOUT ME...</a>
+        </p>
+      </div>
 
-        <div class="horizontal-break">
-            <hr>
+      <div class="horizontal-break">
+        <hr />
+      </div>
+      <div class="about-section">
+        <p class="header">PROJECTS</p>
+        <p class="body">
+          Here are the list of tech projects I’ve created <br />during my
+          college year
+        </p>
+        <div class="project-section-1-img">
+          <div class="project-1-card">
+            <img
+              src="img/Portfolio-Project-1.svg"
+              alt="Portfolio-Project-1.svg"
+            />
+            <p class="project-caption">My Portfolio: A Website</p>
+          </div>
+          <div class="project-2-card">
+            <img
+              src="img/PopQuizApp-Project-2.svg"
+              alt="PopQuizApp-Project-2.svg"
+            />
+            <p class="project-caption">Pop Quiz App: A Java Project</p>
+          </div>
+          <div class="project-3-card">
+            <img
+              src="img/PowerKalan-Project-3.svg"
+              alt="PowerKalan-Project-3.svg"
+            />
+            <p class="project-caption">Power Kalan: AutoCAD</p>
+          </div>
         </div>
-        <div class="about-section">
-            <p class="header">ABOUT ME</p>
-            <p class="body">Senior <a href="https://web.facebook.com/profile.php?id=100068416278996" target="_blank">@Tagoloan Community College</a> taking <br>
-                BS in Information Technology
-            </p>
-            <div class="tcc-img">
-                <img src="img/tcc-photo.jpg" alt="tcc-photo.jpg">
-            </div>
-            <p class="tcc-img-caption">PHOTO from IT Days 2023: Champion <br>Programming Competition</p>
-            <p class="about-section-more">
-                <a href="#">KNOW MORE ABOUT ME...</a>
-            </p>
+        <div class="project-section-2-img">
+          <img src="img/Coming-Soon-0.svg" alt="Coming-Soon-0.svg" />
+          <img src="img/Coming-Soon-0.svg" alt="Coming-Soon-0.svg" />
+          <img src="img/Coming-Soon-0.svg" alt="Coming-Soon-0.svg" />
         </div>
-
-        <div class="horizontal-break">
-            <hr>
-        </div>
-        <div class="about-section">
-            <p class="header">PROJECTS</p>
-            <p class="body"> Here are the list of tech projects I’ve created 
-                <br>during my college year</p>
-            <div class="project-section-1-img">
-                
-                <div class="project-1-card">
-                    <img src="img/Portfolio-Project-1.svg" alt="Portfolio-Project-1.svg">
-                    <p class="project-caption">My Portfolio: A Website</p>
-                </div>
-                <div class="project-2-card">
-                    <img src="img/PopQuizApp-Project-2.svg" alt="PopQuizApp-Project-2.svg">
-                    <p class="project-caption">Pop Quiz App: A Java Project</p>
-                </div>
-                <div class="project-3-card">
-                    <img src="img/PowerKalan-Project-3.svg" alt="PowerKalan-Project-3.svg">
-                    <p class="project-caption">Power Kalan: AutoCAD</p>
-                </div>
-            </div>
-            <div class="project-section-2-img">
-                <img src="img/Coming-Soon-0.svg" alt="Coming-Soon-0.svg">
-                <img src="img/Coming-Soon-0.svg" alt="Coming-Soon-0.svg">
-                <img src="img/Coming-Soon-0.svg" alt="Coming-Soon-0.svg">
-            </div>
-            <p class="about-section-more">
-                <a href="#">MORE ABOUT PROJECTS...</a>
-            </p>
-        </div>
+        <p class="about-section-more">
+          <a href="#">MORE ABOUT PROJECTS...</a>
+        </p>
+      </div>
     </main>
-    
-    <div class="bottom-navbar">
-        <!-- HOME -->
-        <a href="">
-            <img src="icons/bottom-nav-bar/home-active.svg" alt="home-active.svg">
-        </a>
-        <!-- ABOUT -->
-        <a href="about.html">
-            <img src="icons/bottom-nav-bar/about-inactive.svg" alt="about-inactive.svg">
-        </a>
-        <!-- TECH STACK -->
-        <a href="">
-            <img src="icons/bottom-nav-bar/tech-inactive.svg" alt="tech-inactive.svg">
-        </a>
-        <!-- CONTACT -->
-        <a href="">
-            <img src="icons/bottom-nav-bar/contact-inactive.svg" alt="contact-inactive.svg">
-        </a>
-        <!-- PROJECTS -->
-        <a href="">
-            <img src="icons/bottom-nav-bar/project-inactive.svg" alt="project-inactive.svg">
-        </a>
-    </div>
 
-</body>
+    <div class="bottom-navbar">
+      <!-- HOME -->
+      <a href="">
+        <img src="icons/bottom-nav-bar/home-active.svg" alt="home-active.svg" />
+      </a>
+      <!-- ABOUT -->
+      <a href="about.html">
+        <img
+          src="icons/bottom-nav-bar/about-inactive.svg"
+          alt="about-inactive.svg"
+        />
+      </a>
+      <!-- TECH STACK -->
+      <a href="">
+        <img
+          src="icons/bottom-nav-bar/tech-inactive.svg"
+          alt="tech-inactive.svg"
+        />
+      </a>
+      <!-- CONTACT -->
+      <a href="">
+        <img
+          src="icons/bottom-nav-bar/contact-inactive.svg"
+          alt="contact-inactive.svg"
+        />
+      </a>
+      <!-- PROJECTS -->
+      <a href="">
+        <img
+          src="icons/bottom-nav-bar/project-inactive.svg"
+          alt="project-inactive.svg"
+        />
+      </a>
+    </div>
+  </body>
 </html>

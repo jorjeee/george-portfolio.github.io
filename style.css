@@ -90,7 +90,13 @@ main {
   margin-top: 40px;
 }
 
-.contact-form div {
+/* .contact-form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+} */
+
+.submit-form {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -100,7 +106,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 60px;
+  margin: 0 0 0 95px;
   font-family: 'SourceSansPro-Regular';
   font-size: 12px;
   color: black;
