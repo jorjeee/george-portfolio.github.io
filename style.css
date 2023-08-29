@@ -198,8 +198,8 @@ hr {
 .about-section .header{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 0 0 55px;
+  justify-content: space-around;
+  /* margin: 0 0 0 55px; */
   font-family: 'Koulen-Regular';
   font-size: 34px;
   letter-spacing: 1.5px;
@@ -261,6 +261,7 @@ hr {
   color: black;
 }
 
+/* PROJECT SECTION */
 .project-section-1-img {
   display: flex;
   align-items: center;
@@ -281,4 +282,24 @@ hr {
   font-family: 'SourceSansPro-Regular';
   font-size: 11px;
   color: #666666;
+}
+
+/* TECH STACK SECTION */
+.tech-stack-section {
+  margin: 0 0 100px 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0 0 0;
+}
+
+.child {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 70px;
 }
