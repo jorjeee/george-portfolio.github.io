@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #303030;
 }
   
 body {
@@ -46,12 +47,6 @@ li {
   margin-right: 50px;
 }
 
-/* .nav-links a {
-  font-family: 'Source Sans 3', sans-serif;
-  font-size: 18px;
-  color: black;
-} */
-
 /* MAIN DESIGN */
 @font-face {
   font-family: Koulen-Regular;
@@ -74,7 +69,6 @@ main {
   font-family: 'Koulen-Regular';
   font-size: 40px;
   letter-spacing: 1.5px;
-  color: black;
 }
 
 .headline-list {
@@ -83,18 +77,11 @@ main {
   justify-content: space-around;
   font-family: 'SourceSansPro-Regular';
   font-size: 22px;
-  color: black;
 }
 
 .contact-form {
   margin-top: 40px;
 }
-
-/* .contact-form div {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-} */
 
 .submit-form {
   display: flex;
@@ -109,7 +96,6 @@ main {
   margin: 0 0 0 95px;
   font-family: 'SourceSansPro-Regular';
   font-size: 12px;
-  color: black;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -135,12 +121,11 @@ input[type=email] {
   font-size: 17px;
   /* font-weight: 600; */
   letter-spacing: .5px;
-  background-color: #FFD600;
+  background-color: #FE5244;
   border: none;
   border-radius: 8px;
-  color: white;
+  color: #f0f0f0;
   box-shadow: 2px 2px 2px 0 rgba(50, 50, 71, 0.06), 2px 2px 4px 0 rgba(50, 50, 71, 0.06);
- 
 }
 
 /* SOCIAL MEDIA SECTION */
@@ -213,11 +198,10 @@ hr {
   margin: 0 0 0 55px;
   font-family: 'SourceSansPro-Regular';
   font-size: 13px;
-  color: black;
 }
 
 .about-section .body a {
-  color: black;
+  color: #303030;
   font-weight: bold;
 }
 
@@ -258,7 +242,7 @@ hr {
 
 .about-section .about-section-more a {
   text-decoration: underline;
-  color: black;
+  color: #303030;
 }
 
 /* PROJECT SECTION */
