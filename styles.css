@@ -33,7 +33,7 @@ li {
 .navbar {
     align-items: center;
     padding: 30px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2); */
 }
 
 .nav-links a {
@@ -48,7 +48,8 @@ li {
 }
 
 .menu li {
-    font-size: 18px;
+    font-family: Poppins-Regular;
+    font-size: 20px;
     float: left;
     padding: 5px 0 5px 30px;
 }
@@ -62,6 +63,15 @@ div.menu {
 .gcb-main {
     display: flex;
     justify-content: center;
+    margin: 180px 0 0 0;
+}
+
+.gcb-main-logo {
+    margin: 0 100px 0 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .gcb-company-name {
@@ -72,35 +82,55 @@ div.menu {
 .gcb-contact-info {
     font-family: Poppins-Regular;
     font-size: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 18px;
 }
 
 .gcb-main-message {
     font-family: Poppins-Regular;
     font-size: 24px;
+    margin: 100px 0 0 100px;
 }
 
 .main-message-banner {
     font-family: Poppins-Bold;
     font-size: 24px;
     color: #0F4471;
+    margin: 20px 0 50px 0;
 }
 
 .gcb-main-action-button {
     flex-direction: column;
 }
 
-.gcb-main-action-button button {
+.button {
     font-family: Poppins-Bold;
     font-size: 24px;
     background-color: #0F4471;
-    padding: 20px;
+    border: none;
+    border-radius: 32px;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 
 /* Social Media Section */
 .gcb-main-soc-med {
     display: flex;
     justify-content: center;
-    /* margin-top: 100px; */
+    margin: 100px 0 0 0;
 }
 
 .gcb-main-soc-med div {
