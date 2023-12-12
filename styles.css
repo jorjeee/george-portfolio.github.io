@@ -17,6 +17,19 @@
     list-style: none;
   }
 
+/* GCB Main Information */
+.gcb-main {
+    display: flex;
+    justify-content: center;
+}
+
+.gcb-main-action-button {
+    flex-direction: column;
+}
+
+
+
+
 
 
   /* Social Media Section */
