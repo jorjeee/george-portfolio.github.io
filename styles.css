@@ -17,6 +17,35 @@
     list-style: none;
   }
 
+/* NAVBAR MAIN */
+.navbar {
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+  
+  .nav-links a {
+    /* font-family: 'Source Sans 3', sans-serif; */
+    font-size: 18px;
+    color: black;
+  }
+
+/* NAVBAR MENU */
+.menu {
+    padding: 0 100px 0 0;
+  }
+  
+  .menu li {
+    font-size: 18px;
+    float: left;
+    padding: 5px 0 5px 30px;
+  }
+  
+  div.menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+
 /* GCB Main Information */
 .gcb-main {
     display: flex;
