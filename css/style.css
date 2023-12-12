@@ -30,7 +30,7 @@
   display: flex;
   justify-content: flex-start;
   /* padding: 0 0 0 190px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .logo img {
@@ -55,7 +55,7 @@ main {
 .construction-img {
     display: flex;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .headline-opener {
@@ -65,7 +65,7 @@ main {
     font-size: 64px;
     letter-spacing: 2.5px;
     color: black;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
  
 .subhead-opener {
@@ -75,6 +75,6 @@ main {
     font-size: 34px;
     color: black;
     /* margin-top: -20px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
   
