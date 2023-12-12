@@ -3,48 +3,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-    
-  body {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-  }
-    
-  a {
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+a {
     text-decoration: none;
-  }
-    
-  li {
+    color: white;
+}
+
+li {
     list-style: none;
-  }
+}
+
+/* Imported Fonts */
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(fonts/Poppins/Poppins-Bold.ttf);
+}
 
 /* NAVBAR MAIN */
 .navbar {
     align-items: center;
     padding: 30px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-  }
-  
-  .nav-links a {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.nav-links a {
     /* font-family: 'Source Sans 3', sans-serif; */
     font-size: 18px;
     color: black;
-  }
+}
 
 /* NAVBAR MENU */
 .menu {
     padding: 0 100px 0 0;
-  }
-  
-  .menu li {
+}
+
+.menu li {
     font-size: 18px;
     float: left;
     padding: 5px 0 5px 30px;
-  }
-  
-  div.menu {
+}
+
+div.menu {
     display: flex;
     justify-content: flex-end;
-  }
+}
 
 /* GCB Main Information */
 .gcb-main {
@@ -52,22 +64,45 @@
     justify-content: center;
 }
 
+.gcb-company-name {
+    font-family: Poppins-Bold;
+    font-size: 48px;
+}
+
+.gcb-contact-info {
+    font-family: Poppins-Regular;
+    font-size: 20px;
+}
+
+.gcb-main-message {
+    font-family: Poppins-Regular;
+    font-size: 24px;
+}
+
+.main-message-banner {
+    font-family: Poppins-Bold;
+    font-size: 24px;
+    color: #0F4471;
+}
+
 .gcb-main-action-button {
     flex-direction: column;
 }
 
+.gcb-main-action-button button {
+    font-family: Poppins-Bold;
+    font-size: 24px;
+    background-color: #0F4471;
+    padding: 20px;
+}
 
-
-
-
-
-  /* Social Media Section */
-  .gcb-main-soc-med {
+/* Social Media Section */
+.gcb-main-soc-med {
     display: flex;
     justify-content: center;
     /* margin-top: 100px; */
-  }
+}
 
-  .gcb-main-soc-med div {
+.gcb-main-soc-med div {
     padding: 100px 25px 0 25px;
-  }
+}
