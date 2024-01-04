@@ -84,6 +84,7 @@ div.menu {
 }
 
 .gcb-company-name {
+    padding: 20px 0 0 0;
     font-family: Poppins-Bold;
     font-size: 48px;
 }
